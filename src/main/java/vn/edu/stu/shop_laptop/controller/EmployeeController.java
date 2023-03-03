@@ -23,6 +23,7 @@ import vn.edu.stu.shop_laptop.service.TokenService;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/")
 public class EmployeeController {
     @Autowired
     EmployeeRepository gEmployeeRepository;

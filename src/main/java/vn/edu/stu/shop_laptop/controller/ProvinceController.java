@@ -9,6 +9,7 @@ import vn.edu.stu.shop_laptop.repository.*;
 import vn.edu.stu.shop_laptop.model.*;;
 @RestController
 @CrossOrigin
+@RequestMapping("/")
 public class ProvinceController {
     @Autowired ProvinceRepository provinceRepo;
     @Autowired DistrictRepository districtRepo;

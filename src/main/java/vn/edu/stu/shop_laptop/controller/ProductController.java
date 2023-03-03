@@ -16,6 +16,7 @@ import vn.edu.stu.shop_laptop.service.ProductService;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/")
 public class ProductController {
     @Autowired
     private ProductService gProductService;

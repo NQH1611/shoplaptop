@@ -20,6 +20,7 @@ import vn.edu.stu.shop_laptop.security.JwtUtil;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/")
 public class CustomerController {
     @Autowired
     private CustomerService gCustomerService;

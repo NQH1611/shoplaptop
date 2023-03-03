@@ -9,6 +9,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import vn.edu.stu.shop_laptop.model.User;
@@ -20,6 +21,7 @@ import vn.edu.stu.shop_laptop.repository.UserRepository;
  *
  */
 @RestController
+@RequestMapping("/")
 public class WithoutAuthorizeController {
 	@Autowired
 	private UserRepository userRepository;

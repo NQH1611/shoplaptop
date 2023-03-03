@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import vn.edu.stu.shop_laptop.model.Order;
@@ -17,6 +18,7 @@ import vn.edu.stu.shop_laptop.service.OrderService;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/")
 public class OrderController {
     @Autowired
     private OrderService gOrderService;
