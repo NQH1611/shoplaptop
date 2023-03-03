@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* vn.edu.stu.shop_laptop
