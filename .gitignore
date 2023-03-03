@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 build
-.gradle
+.maven
 .idea
 out
 *.iml
