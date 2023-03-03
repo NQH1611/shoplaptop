@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* vn.edu.stu.shop_laptop
+web: java -jar build/libs/shop_laptop-1.0.jar 
