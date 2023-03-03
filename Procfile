@@ -1,1 +1,1 @@
-web: java -jar build/libs/shop_laptop-1.0.jar 
+web: java -jar build/server/webapp-runner-*.jar build/libs/*.war
